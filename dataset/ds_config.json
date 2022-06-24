@@ -1,0 +1,20 @@
+{
+	"name": "ds_config",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_ablob_configs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "github_ecdc_file_list.json",
+				"container": "configs"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

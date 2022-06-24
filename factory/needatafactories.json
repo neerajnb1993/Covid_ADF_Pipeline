@@ -1,0 +1,9 @@
+{
+	"name": "needatafactories",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bda19933-9b5d-4fc6-96d8-396ed92eafa2",
+		"tenantId": "6362cc9f-2561-4035-83de-773cff9b0955"
+	}
+}
